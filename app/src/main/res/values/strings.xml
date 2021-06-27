@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Green Chat</string>
+    <string name="log_in">LOG IN</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="remember">Remember</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="password">Password</string>
+    <string name="re_type_password">Re-Type Password</string>
+    <string name="email">Email</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="username">Username</string>
+    <string name="upload_a_profile_picture_n_optional">Upload a profile picture  [Optional]</string>
+    <string name="todo">TODO</string>
+    <string name="greenchat">Chats</string>
+    <string name="members">Members</string>
+    <string name="this_is_my_message_that_will_wrap_into_multiple_lines_and_keep_on_going">This is my message that will wrap into multiple lines and keep on going</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="send">Send</string>
+    <string name="imamagun94_gmail_com">imamagun94@gmail.com</string>
+    <string name="x">X</string>
+    <string name="close">CLOSE</string>
+    <string name="dhaka">Dhaka</string>
+    <string name="_00">00</string>
+    <string name="location">Location</string>
+    <string name="peoples">Peoples</string>
+    <string name="messages">Messages</string>
+    <string name="newagebd">Green University</string>
+
+</resources>

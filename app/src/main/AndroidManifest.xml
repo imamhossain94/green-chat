@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.newage.myapplication">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_msg"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_msg"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppThemeMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ChatHomeActivity"
+            android:theme="@style/AppThemeChat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".LogInActivity" />
+
+        <activity
+            android:name=".PropleProfileActivity"
+            android:theme="@style/AppThemePeopleProfile">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ChatHomeActivity" />
+        </activity>
+
+        <activity
+            android:name=".ChatLogActivity"
+            android:theme="@style/AppThemeChat">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ChatHomeActivity" />
+        </activity>
+
+        <activity
+            android:name=".ProfileActivity"
+            android:theme="@style/AppThemeProfile" />
+        <activity
+            android:name=".PeopleActivity"
+            android:theme="@style/AppThemeChat" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "903246067457",
+    "firebase_url": "https://green-chat-92b65.firebaseio.com",
+    "project_id": "green-chat-92b65",
+    "storage_bucket": "green-chat-92b65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903246067457:android:a7039757e1f2313939cd00",
+        "android_client_info": {
+          "package_name": "com.newage.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903246067457-raa3bu1kvpgfcinp1nv5m2769rg6um78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.newage.myapplication",
+            "certificate_hash": "a8284c00eb67bae1e118fcfcbd23b1fb2e59a51d"
+          }
+        },
+        {
+          "client_id": "903246067457-do1lgk15lsclid5ojoevajjoe9eroek0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_ZCFMOO7FWZkVVrHDW6t3ntQoplEm7rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903246067457-do1lgk15lsclid5ojoevajjoe9eroek0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
